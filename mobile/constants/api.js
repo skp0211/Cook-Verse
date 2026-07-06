@@ -5,4 +5,4 @@ const debuggerHost =
   Constants.expoGoConfig?.debuggerHost ?? Constants.expoConfig?.hostUri ?? "localhost:8081";
 const host = debuggerHost.split(":")[0];
 
-export const API_URL = `http://${host}:5001/api`;
+export const API_URL = "https://cook-verse-production.up.railway.app/api";
